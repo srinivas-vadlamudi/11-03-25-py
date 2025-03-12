@@ -10,7 +10,7 @@ print("sum of all nested list is",sum)
 # min and max value in nested list
 list2=[[-8,2,3,-2],[5,6,7,8,99],[9,10,11,12,-4],[50]] 
 
-min_value = [0][0]
+min_value = list2[0][0]
 max_value = list2[0][0]
 
 for i in list2:
